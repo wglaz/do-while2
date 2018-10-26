@@ -26,6 +26,6 @@ int main() {
 
         printf("Czy chcesz wykonać operację jeszcze raz: TAK - t NIE - n\n");
         scanf(" %c", &x);
-    }while(x=='t'|| x=='T');
+    }while(x=='t'|| x=='T');//każdy inny znak zakonczy działanie pętli
     return 0;
 }
